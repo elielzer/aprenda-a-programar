@@ -13,3 +13,12 @@ meuEmail =  "tesla@gmail.com"
 minhaProfissão = "CEO"
 minhaIdade = 30 
 minhaPreferencia = "Califórnia"
+
+// Processamento para saída de dados
+
+console.log("------Dados do cliente de turismo--------")
+console.log("Nome-> " + meuNome)
+console.log("Idade-> " + minhaIdade + " anos")
+console.log("email-> " + meuEmail)
+console.log("Profissão-> " + minhaProfissão)
+console.log("Lugar de preferência para conhecer-> " + minhaPreferencia)
