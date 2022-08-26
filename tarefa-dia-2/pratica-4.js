@@ -13,9 +13,9 @@ let produtoC = {"nome": "sandália", "valor": 120.00, "internacional": false};
 // ------------------------ Produto A 
 
 if ( produtoA.internacional == true ) {
-    produtoA.valor = "Produto A ->" +  produtoA.valor * 1.20
+    produtoA.valor = "Produto A ->" + produtoA.nome + ", valor total:  " +  produtoA.valor * 1.20
 } else {
-    produtoA.valor = "Produto A ->" + produtoA.valor * 1.12
+    produtoA.valor = "Produto A ->" + produtoA.nome + ", valor total:  " + produtoA.valor * 1.12
 }
 
 relatorio = `${produtoA.valor}`
@@ -24,9 +24,9 @@ relatorio = `${produtoA.valor}`
 // ----------------------- Produto B
 
 if ( produtoB.internacional == true ) {
-    produtoB.valor = "Produto B ->" +  produtoB.valor * 1.20
+    produtoB.valor = "Produto B ->" + produtoB.nome + ", valor total:  " +  produtoB.valor * 1.20
 } else {
-    produtoB.valor = "Produto B ->" + produtoB.valor * 1.12
+    produtoB.valor = "Produto B ->" + produtoB.nome + ", valor total:  " +  produtoB.valor * 1.12
 }
 
 relatorio = `${relatorio}
@@ -36,9 +36,9 @@ ${produtoB.valor}`
 // ----------------------- Produto C
 
 if ( produtoC.internacional == true ) {
-    produtoC.valor = "Produto C ->" +  produtoC.valor * 1.20
+    produtoC.valor = "Produto C ->" + produtoC.nome + ", valor total:  " +  produtoC.valor * 1.20
 } else {
-    produtoC.valor = "Produto C ->" +  produtoC.valor * 1.12
+    produtoC.valor = "Produto C ->" + produtoC.nome + ", valor total:  " +  produtoC.valor * 1.12
 }
 
 relatorio = `${relatorio}
