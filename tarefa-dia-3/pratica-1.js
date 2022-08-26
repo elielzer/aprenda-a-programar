@@ -3,14 +3,14 @@
 // "n" será uma possível entrada de usuário (um número inteiro)
 
 // primeiro uma possível entrada de usuário é esperada
-n = 9
+let n = 9
 
 let i = 1 // "i" é o contador funcional do processo de repetição
           // o valor em "i" é que será apresentado 
 
 while ( i <= n ) {
 
-    console.log (i) // o que resultar nessa linha será repetido
+    console.log ( i ) // o que resultar nessa linha será repetido
                     // para refletir o que se pede.
 
     i +=1           // aqui o contador será incrementado de uma 
